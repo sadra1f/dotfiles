@@ -1,0 +1,38 @@
+[global_config]
+  tab_position = hidden
+  broadcast_default = off
+  title_at_bottom = True
+  title_transmit_fg_color = "#1e1e1e"
+  title_transmit_bg_color = "#dcdfe4"
+  title_receive_fg_color = "#1e1e1e"
+  title_receive_bg_color = "#61afef"
+  title_inactive_fg_color = "#1e1e1e"
+  title_inactive_bg_color = "#dcdfe4"
+  title_use_system_font = False
+  title_font = Fira Mono 10
+[keybindings]
+  cycle_next = <Primary>grave
+  cycle_prev = <Primary>asciitilde
+  next_tab = <Primary>Tab
+  prev_tab = <Primary><Shift>Tab
+[profiles]
+  [[default]]
+    background_color = "#1e1e1e"
+    cursor_color = "#aaaaaa"
+    font = Fira Code Medium 11
+    foreground_color = "#dcdfe4"
+    show_titlebar = False
+    palette = "#282c34:#e06c75:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#dcdfe4:#5d677a:#e06c75:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#dcdfe4"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 800, 600
+      position = 560:240
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]
