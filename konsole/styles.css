@@ -1,0 +1,15 @@
+QTabBar {
+  padding: 0;
+}
+
+QTabBar::tab {
+  min-height: 18px;
+  max-height: 18px;
+  padding: 0 8px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+QTabBar::tab:selected {
+  color: #89b4fa;
+}
