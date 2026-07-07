@@ -3,6 +3,7 @@ AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=Main
 DimmValue=47
+EmojiFont=Noto Color Emoji,12,-1,5,50,0,0,0,0,0
 Font=VazirFiraCode Nerd Font Medium,12,-1,5,57,0,0,0,0,0,Regular
 IgnoreWcWidth=false
 UseFontLineChararacters=true
